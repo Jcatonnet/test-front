@@ -3,7 +3,7 @@ class TransactionsController < ApplicationController
 
     def index
         @transactions = Transaction.all
+
         call_api_index
-        raise
     end
 end
