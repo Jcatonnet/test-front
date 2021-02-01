@@ -1,0 +1,10 @@
+<div class="banner">
+
+
+    <% @transactions.each do |transaction| %>
+    <%= transaction.name %>
+    <%= transaction.date %>
+    <%= transaction.amount %>
+    <% end %>
+
+</div>
